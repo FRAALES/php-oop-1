@@ -3,16 +3,16 @@
 class Movie {
     public $title;
     public $director;
-    public $mainActor;
+    public $mainactor;
 
-    public function_construct ($title, $director, $mainActor) {
+    public function __construct ($title, $director, $mainactor) {
         $this -> title = $title;
         $this -> director = $director;
-        $this -> $mainActor = $mainActor;
+        $this -> $mainactor = $mainactor;
     }
 
     public function getFullMovie () {
-        return $this -> title . "," . $this -> director . "," . $this -> mainActor;
+        return $this -> title . "," . $this -> director . "," . $this -> mainactor;
     }
 }
 
