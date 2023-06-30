@@ -23,5 +23,5 @@ $movie2 = new Movie ("The Lord of the Rings", "Peter Jackson", "Elijah Wood");
 
 
 var_dump($movie1);
-
+echo "<br><br>";
 var_dump($movie2);
