@@ -8,7 +8,7 @@ class Movie {
     public function __construct ($title, $director, $mainactor) {
         $this -> title = $title;
         $this -> director = $director;
-        $this -> $mainactor = $mainactor;
+        $this -> mainactor = $mainactor;
     }
 
     public function getFullMovie () {
@@ -23,3 +23,5 @@ $movie2 = new Movie ("The Lord of the Rings", "Peter Jackson", "Elijah Wood");
 
 
 var_dump($movie1);
+
+var_dump($movie2);
