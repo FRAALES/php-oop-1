@@ -57,6 +57,11 @@ $movie2 = new Movie ("The Lord of the Rings", "Peter Jackson", "Elijah Wood", $g
 
 
 
-var_dump($movie1);
-echo "<br><br>";
-var_dump($movie2);
+// var_dump($movie1);
+// echo "<br><br>";
+// var_dump($movie2);
+
+echo "Movie 1: <br>" . $movie1 -> getFullMovie()
+        . "<br>------------------<br>"
+        . "Movie 2: <br>" . $movie2 -> getFullMovie();
+
